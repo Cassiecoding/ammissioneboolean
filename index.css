@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    font-family: Krona One, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.sfondix {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+    width: 50%;
+    padding: 2%;
+}
+
+header {
+    text-align: center;
+    color: rgba(50, 247, 50, 0.8);
+}
+
+h1, h3, .sfondix {
+    display: inline-block;
+}
+
+nav {
+    background-color: rgb(40, 156, 40);
+    padding: 1%;
+    margin-inline: 10%;
+}
+
+.monopattino {
+    margin-inline: 10%;
+    text-align: left;
+    color: aliceblue;
+}
+
+p {
+    font-size: 12px;
+    line-height: 2px;
+}
+ /* Selezione del solo primo paragrafo dei .monopattino */
+p:nth-of-type(2n+1) {
+    font-style: italic;
+}
+
+.carica341 {
+    background-color: orange;
+    padding: 2%;
+    margin-inline-end: 40%;
+    border-radius: 5%;
+}
+
+.carica532 {
+    background-color: greenyellow;
+    padding: 2%;
+    margin-inline-end: 15%;
+    border-radius: 5%;
+}
+
+.carica544 {
+    background-color: red;
+    padding: 2%;
+    margin-inline-end: 70%;
+    border-radius: 5%;
+}
+
+footer {
+    text-align: left;
+    font-size: smaller;
+    color: darkkhaki;
+    padding-top: 2%;
+}
